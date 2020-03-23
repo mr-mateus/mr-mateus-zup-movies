@@ -10,7 +10,7 @@
     "build": "ng build",
     "build:prod": "ng build --prod",
     "test": "ng test",
-    "test:ci": "ng test --watch=false --browsers=ChromeHeadlessNoSandbox --karma-config=karma.conf.js",
+    "test:ci": "ng test --watch=false --browsers=ChromeHeadlessNoSandbox --code-coverage --karma-config=karma.conf.js",
     "test:single-run": "ng test -- --watch=false --code-coverage",
     "e2e": "ng e2e",
     "lint": "ng lint",
